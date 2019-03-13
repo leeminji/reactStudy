@@ -1,0 +1,36 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "description" : "react test app",
+  "author" : {
+    "name" : "LEE MINJI",
+    "email" : "leeminji25@naver.com"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/leeminji/reactStudy.git"
+  },
+  "private": true,
+  "dependencies": {
+    "immutability-helper": "^3.0.0",
+    "react": "^16.8.4",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
